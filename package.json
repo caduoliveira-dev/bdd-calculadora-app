@@ -1,0 +1,14 @@
+{
+  "name": "bdd-calculadora-app",
+  "version": "1.0.0",
+  "description": "Calculadora com testes BDD usando Cucumber",
+  "main": "script.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Carlos Eduardo Ribeiro Oliveira",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.1"
+  }
+}
