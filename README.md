@@ -14,6 +14,12 @@ Para executar todos os testes BDD:
 npm test
 ```
 
+Para executar os testes utilizando a interface gráfica:
+1. Certifique que você tenha o chormium instalado
+2. Altere a linha 10 do arquivo "calculadora_steps.js" -> headless: false
+
+  browser = await chromium.launch({ headless: true });
+
 ## Cenários de Teste Implementados
 
 Os seguintes cenários estão implementados em Gherkin:
